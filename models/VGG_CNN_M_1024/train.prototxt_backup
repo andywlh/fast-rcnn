@@ -10,7 +10,7 @@ layer {
   python_param {
     module: 'roi_data_layer.layer'
     layer: 'RoIDataLayer'
-    param_str: "'num_classes': 6"
+    param_str: "'num_classes': 21"
   }
 }
 layer {
@@ -275,7 +275,7 @@ layer {
     decay_mult: 0
   }
   inner_product_param {
-    num_output: 6
+    num_output: 21
     weight_filler {
       type: "gaussian"
       std: 0.01
@@ -300,7 +300,7 @@ layer {
     decay_mult: 0
   }
   inner_product_param {
-    num_output: 24
+    num_output: 84
     weight_filler {
       type: "gaussian"
       std: 0.001
