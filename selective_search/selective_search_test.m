@@ -9,4 +9,4 @@ for i = 1:length(image_filenames)
     end
 end
 selective_search_rcnn(image_filenames, 'test.mat');
-exit
+exit;

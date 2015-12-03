@@ -9,7 +9,7 @@ momentum: 0.9
 weight_decay: 0.0005
 # We disable standard caffe solver snapshotting and implement our own snapshot
 # function
-snapshot: 10000
+snapshot: 0
 # We still use the snapshot prefix, though
-snapshot_prefix: "output/vgg_cnn_m_1024_fast_rcnn"
+snapshot_prefix: "vgg_cnn_m_1024_fast_rcnn"
 #debug_info: true
